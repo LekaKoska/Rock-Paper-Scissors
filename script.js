@@ -8,6 +8,7 @@ const choicesBtns = document.querySelector(".choices");
 
 let playerScore = 0;
 let computerScore = 0;
+
 function playGame(playerChoice) {
 	const computerChoice = choices[Math.floor(Math.random() * 3)];
 	let result = "";
